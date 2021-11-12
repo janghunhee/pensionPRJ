@@ -1,0 +1,37 @@
+
+//예약 테이블
+CREATE TABLE Room(
+
+room_number VARCHAR2(10)
+CONSTRAINT Room_room_number_pk PRIMARY KEY,
+room_name VARCHAR2(60)  NOT NULL,
+
+name VARCHAR2(10)  NOT NULL,
+tel VARCHAR2(20)  NOT NULL,
+d date default sysdate
+);
+
+
+
+//여행객 테이블
+CREATE TABLE Travler(
+
+id VARCHAR2(10)
+CONSTRAINT Travler_id_pk PRIMARY KEY,
+password VARCHAR2(20) NOT NULL,
+
+name VARCHAR2(10)  NOT NULL,
+tel VARCHAR2(20)  NOT NULL
+);
+
+
+//후기 게시판 테이블
+create table reboard (
+num number(5) 
+constraint reboard_num_pk primary key,
+title varchar2(30),
+name varchar2(10),
+password varchar2(20),
+content varchar2(4000),
+d date
+);

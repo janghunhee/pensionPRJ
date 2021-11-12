@@ -1,0 +1,105 @@
+@charset "EUC-KR";
+
+.sogae{
+    position: absolute;
+    top: 1000px;
+    width: 100%;
+    left: 0px;
+    text-align: center;
+}
+
+.sogae1 li{
+    list-style: none;
+}
+
+.sogae1 img{
+    width: 800px;
+    height: 500px;
+    margin: 50px 0px;
+}
+
+.sogae_txt1{
+    width: 400px;
+    font-size: 20px;
+    margin: auto;
+}
+
+.sogae2{
+    display: flex;
+    margin-top: 50px;
+}
+
+.sogae2_pic{
+    margin-left: 150px;
+}
+
+.sogae2_txt{
+    margin-left: 150px;
+    text-align: left;
+}
+
+.sogae2_txt h2{
+    margin-bottom: 40px;
+}
+
+.sogae2 img{
+    width: 300px;
+    height: 400px;
+}
+
+.jido_main{
+    margin-top:550px;
+    width: 100%;
+    
+}
+
+.jido{
+    width:100%;
+    left:0;
+    right:0;
+}
+
+#jido1{
+	width:70%;
+    height:500px;
+	margin:auto;
+}
+
+.jido h1{
+	margin-left : 150px;
+}
+
+.jido hr{
+	width:80%;
+	border:none;
+	border-top:8px dotted cyan;
+	color: #fff;
+	background-color:#fff;
+	height:1px;
+	margin-bottom : 50px;
+}
+
+.juso{
+	width:80%;
+	margin-left:150px;
+    margin-top: 80px;
+}
+
+.reservebtn{
+    margin-top: 150px;
+	width:100%;
+	left: 0;
+	text-align:center;
+}
+
+a.rbtn{
+	text-decoration:none;
+	color:white;
+	background-color:black;
+	padding:10px 30px;
+	border-radius:5px;
+}
+
+#jido1{
+    background-color: pink;
+}

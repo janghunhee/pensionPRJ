@@ -1,0 +1,85 @@
+@charset "EUC-KR";
+
+*{
+    list-style: none;
+}
+
+/* 주변 여행지 */
+.jubyunt_main,
+.jubyunf_main{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top:550px;
+    width: 100%;
+}
+
+.rsvtable{
+	width:100%;
+	margin-top:550px;
+	text-align:center;
+	height:auto;
+}
+
+
+.jubyunt_main img,
+.jubyunf_main img{
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    object-fit: cover;
+    margin: 30px 30px;
+}
+
+.jubyunt_middle,
+.jubyunf_middle{
+    display: flex;
+    width: 70%;
+}
+
+.jubyunt_txt hr,
+.jubyunf_txt hr{
+    margin: 50px 0px 80px 0px;
+    border: none;
+    border-top: 8px dotted cyan;
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+}
+
+.jubyunt1,.jubyunf1,
+.jubyunt2,.jubyunf2,
+.jubyunt3,.jubyunf3{
+    display: flex;
+}
+
+.jubyunt1_sul,.jubyunf1_sul,
+.jubyunt2_sul,.jubyunf2_sul,
+.jubyunt3_sul,.jubyunf3_sul{
+    width: 500px;
+    margin-left: 50px;
+}
+
+.lighthouse,
+.shrimp{
+    background-color: rgb(238, 238, 113);
+    border-radius: 10px;
+}
+
+.junmangdae,
+.mulhoe{
+    background-color: rgb(135, 240, 135);
+    border-radius: 10px;
+}
+
+.usanbong,
+.cow{
+    background-color: rgb(51, 243, 243);
+    border-radius: 10px;
+}
+
+.stel,.mtel,.ctel{
+    font-size: 20px;
+}
+
